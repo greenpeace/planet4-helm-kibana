@@ -1,0 +1,15 @@
+---
+ingress:
+  annotations:
+    kubernetes.io/ingress.class: traefik
+  enabled: true
+  hosts:
+  - kibana.p4.greenpeace.org
+  path: /
+resources:
+  limits:
+    cpu: 1000m
+    memory: 2Gi
+  requests:
+    cpu: 100m
+    memory: 2Gi
