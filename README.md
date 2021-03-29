@@ -4,7 +4,7 @@
 # ElasticStack Kibana
 
 Kibana is a free and open source UI that lets you visualise your ES data and
-navigate the ElasticStack.
+navigate the ElasticStack.  It is used to track the ES WP indexes and APM data.
 
 <h1>Important Notes</h1>
 
