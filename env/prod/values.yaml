@@ -10,10 +10,10 @@ ingress:
   tls:
     - secretName: kibana-tls
       hosts:
-        - prod.kibana.greenpeace.org
+        - prod.kibana.p4.greenpeace.org
   enabled: true
   hosts:
-    - prod.kibana.greenpeace.org
+    - prod.kibana.p4.greenpeace.org
 resources:
   limits:
     cpu: 1000m
