@@ -4,7 +4,7 @@ RELEASE 	?= kibana
 NAMESPACE	?= elastic
 
 CHART_NAME ?= elastic/kibana
-CHART_VERSION ?= 7.9.3
+CHART_VERSION ?= 7.10.2
 
 DEV_CLUSTER ?= p4-development
 DEV_PROJECT ?= planet-4-151612
@@ -43,7 +43,7 @@ endif
 		--namespace=$(NAMESPACE) \
 		--version $(CHART_VERSION) \
 		-f values.yaml \
-		--values env/dev/values.yaml \
+		--values env/prod/values.yaml \
 		$(CHART_NAME)
 	$(MAKE) history
 
